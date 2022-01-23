@@ -22,6 +22,7 @@ public class ApiStepDefs {
     static Response response;
     static String emailGlobal;
     static String passwordGlobal;
+
     @Given("I logged Bookit api using {string} and {string}")
     public void i_logged_Bookit_api_using_and(String email, String password) {
 
